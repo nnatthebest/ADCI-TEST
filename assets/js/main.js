@@ -12,4 +12,5 @@ $(document).ready(function(){
   $('.nav-block__child').mouseleave(function(){
     $(this).hide();
   })
+  $('.slider-photos').slick();
 })
