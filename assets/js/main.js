@@ -12,5 +12,19 @@ $(document).ready(function(){
   $('.nav-block__child').mouseleave(function(){
     $(this).hide();
   })
-  $('.slider-photos').slick();
+  $('.slider-photos').slick({
+    autoplay: true,
+    arrows: false,
+    autoplaySpeed: 5000,
+    dots: true,
+    dotsClass: 'slider-dots'
+  });
+  $('.slider-toogle__arrow').click(function(){
+    if($('.slider-toogle__arrow img').hasClass('rotate')){
+      $('.slider-toogle__arrow img').removeClass('rotate');
+    }else{
+      $('.slider-toogle__arrow img').addClass('rotate');
+    }
+    $('.slider-toogle__hiden').slideToggle('slow');
+  })
 })
