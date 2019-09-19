@@ -1,6 +1,7 @@
 .slider
   position: relative
-  font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display', serif
+  height: calc(100vh -130px)
   &-dots
     list-style: none
     display: flex
@@ -33,7 +34,7 @@
     background: #ffffff
     color: #000000
     position: absolute
-    top: 25%
+    top: 30%
     right: 0
     max-width: 460px
     &__header
@@ -44,14 +45,15 @@
     &__sub-header
       font-size: 18px
       line-height: 24px
+      font-family: 'Open Sans', sans-serif
   &-toogle
     &__open
       width: 100%
       display: flex
       justify-content: center
     &__arrow
-      width: 90px
-      height: 30px
+      width: 40px
+      height: 15px
       padding: 5px 23px 7px 24px
       background: #ffffff
       text-align: center
@@ -86,7 +88,6 @@
       font-size: 28px
       line-height: 30px
       margin: 0
-      margin-bottom: 10px
       min-height: 60px
     &__text
       font-size: 16px
@@ -94,7 +95,6 @@
       line-height: 25px
       font-family: 'Open Sans', sans-serif
       margin: 0
-      margin-bottom: 18px
     &__underline
       font-size: 18px
       font-family: 'Open Sans', sans-serif
