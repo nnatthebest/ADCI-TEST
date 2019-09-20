@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 
 <head>
   <meta charset="UTF-8">
@@ -16,48 +16,96 @@
   <main class="main">
     <div class="header">
       <div class="header-block">
-        <div class="header-block__logo">
-          <a href="/" class="header-block__logo__link"><img src="assets/images/LOGO.png" alt="Logo"></a>
-        </div>
-        <!-- /.header-block__logo -->
-        <div class="header-block__menu">
-          <div class="header-block__menu__auth">
-            <a href="#" class="small-link">AREA RISERVATA<img src="assets/images/lock.png" alt="Lock">
-            </a>
-            <!-- /.small-link -->
+        <div class="container">
+          <div id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
           </div>
-          <!-- /.header-block__menu__auth -->
-          <nav class="header-block__menu__nav">
-            <div class="nav-block">
-              <a href="#" class="nav-link active">Home</a> <!-- /.nav-link -->
+          <div class="header-block__logo">
+            <a href="/" class="header-block__logo__link"><img src="assets/images/LOGO.png" alt="Logo"></a>
+          </div>
+          <!-- /.header-block__logo -->
+          <div class="header-block__menu">
+            <div class="header-block__menu__auth">
+              <a href="#" class="small-link">AREA RISERVATA<img src="assets/images/lock.png" alt="Lock">
+              </a>
+              <!-- /.small-link -->
             </div>
-            <!-- /.nav-block -->
-            <div class="nav-block">
-              <a href="#" class="nav-link">Azienda</a> <!-- /.nav-link -->
-              <div class="nav-block__child">
-                <a href="#" class="child-link">Storia</a>
-                <a href="#" class="child-link">MM design</a>
-                <a href="#" class="child-link">Designer</a>
-                <a href="#" class="child-link">Certificazioni</a>
+            <!-- /.header-block__menu__auth -->
+            <nav class="header-block__menu__nav">
+              <div class="nav-block">
+                <a href="#" class="nav-link active">Home</a> <!-- /.nav-link -->
               </div>
+              <!-- /.nav-block -->
+              <div class="nav-block">
+                <a href="#" class="nav-link">Azienda</a> <!-- /.nav-link -->
+                <div class="nav-block__child">
+                  <a href="#" class="child-link">Storia</a>
+                  <a href="#" class="child-link">MM design</a>
+                  <a href="#" class="child-link">Designer</a>
+                  <a href="#" class="child-link">Certificazioni</a>
+                </div>
+              </div>
+              <!-- /.nav-block -->
+              <div class="nav-block">
+                <a href="#" class="nav-link">Collezioni</a> <!-- /.nav-link -->
+              </div>
+              <!-- /.nav-block -->
+              <div class="nav-block">
+                <a href="#" class="nav-link">News</a> <!-- /.nav-link -->
+              </div>
+              <!-- /.nav-block -->
+              <div class="nav-block">
+                <a href="#" class="nav-link">Contatti</a> <!-- /.nav-link -->
+              </div>
+              <!-- /.nav-block -->
+            </nav>
+            <!-- /.header-block__menu__nav -->
+          </div>
+          <!-- /.header-block__menu -->
+          <div class="mobile-bg">
+            <div class="mobile-menu">
+              <button class="mobile-menu__close"><img src="assets/images/cancel.png" alt="close"></button>
+              <div class="mobile-menu__auth">
+                <a href="#" class="small-link">AREA RISERVATA<img src="assets/images/lock(black).png" alt="Lock">
+                </a>
+                <!-- /.small-link -->
+              </div>
+              <!-- /.header-block__menu__auth -->
+              <nav class="mobile-menu__nav">
+                <div class="nav-block">
+                  <a href="#" class="nav-link active">Home</a> <!-- /.nav-link -->
+                </div>
+                <!-- /.nav-block -->
+                <div class="nav-block">
+                  <a href="#" class="nav-link">Azienda</a> <!-- /.nav-link -->
+                  <div class="nav-block__child">
+                    <a href="#" class="child-link">Storia</a>
+                    <a href="#" class="child-link">MM design</a>
+                    <a href="#" class="child-link">Designer</a>
+                    <a href="#" class="child-link">Certificazioni</a>
+                  </div>
+                </div>
+                <!-- /.nav-block -->
+                <div class="nav-block">
+                  <a href="#" class="nav-link">Collezioni</a> <!-- /.nav-link -->
+                </div>
+                <!-- /.nav-block -->
+                <div class="nav-block">
+                  <a href="#" class="nav-link">News</a> <!-- /.nav-link -->
+                </div>
+                <!-- /.nav-block -->
+                <div class="nav-block">
+                  <a href="#" class="nav-link">Contatti</a> <!-- /.nav-link -->
+                </div>
+                <!-- /.nav-block -->
+              </nav>
+              <!-- /.header-block__menu__nav -->
             </div>
-            <!-- /.nav-block -->
-            <div class="nav-block">
-              <a href="#" class="nav-link">Collezioni</a> <!-- /.nav-link -->
-            </div>
-            <!-- /.nav-block -->
-            <div class="nav-block">
-              <a href="#" class="nav-link">News</a> <!-- /.nav-link -->
-            </div>
-            <!-- /.nav-block -->
-            <div class="nav-block">
-              <a href="#" class="nav-link">Contatti</a> <!-- /.nav-link -->
-            </div>
-            <!-- /.nav-block -->
-          </nav>
-          <!-- /.header-block__menu__nav -->
+            <!-- /.header-block__menu -->
+          </div>
         </div>
-        <!-- /.header-block__menu -->
       </div>
       <!-- /.header-block -->
     </div>
@@ -151,34 +199,33 @@
             <input type="text" name="name" id="name" placeholder="Nome e Cognome" class="footer-top__input">
             <input type="email" name="email" id="email" placeholder="Email" class="footer-top__input">
             <input type="checkbox" name="agree" id="agree"><label for="agree">Acconsento al trattamento dei dati</label>
-            <input type="submit" value=ISCRIVITI" class="footer-top__submit">
+            <input type="submit" value="ISCRIVITI" class="footer-top__submit">
           </form>
         </div>
         <!-- /.footer-top__block -->
       </div>
       <!-- /.footer-top -->
       <div class="footer-bottom">
-        <span class="footer-bottom__text">MMLAMPADARI srl     Via Feltrina 00     31111 Pederobba  (TV)     0423.123456 <a href="mailto:info@mmlampadari.mm" class="footer-bottom__link">info@mmlampadari.mm</a> P.IVA 04123456789</span>
+        <span class="footer-bottom__text">MMLAMPADARI srl Via Feltrina 00 31111 Pederobba (TV) 0423.123456 <a
+            href="mailto:info@mmlampadari.mm" class="footer-bottom__link">info@mmlampadari.mm</a> P.IVA
+          04123456789</span>
         <!-- /.footer-bottom__text -->
         <div class="footer-bottom__social">
-          <a href="https://www.facebook.com/profile.php?id=100006167449154&ref=bookmarks"><svg 
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            width="18px" height="18px">
-           <image  x="0px" y="0px" width="18px" height="18px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAMAAABhEH5lAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABa1BMVEW/2rP///+mvpmWpI+orqaus6yvs6ywtK+wtK6vs62wtK6lrKOYr46Kn4DT1NOctJGmrKTf397q6uro6Ojg4N+xtq6us6yWoZG/xbwlKx4sNCVebFTb29q6vrmtsqufp5vC4LU8RjPl5eS4vLbS09Kzzqj09fPl5eW4vLbP0M9fb1W61a7Z29jm5+Xr6+vm5+a+wLyfp5udtpGYso3U1tPj5OLn5+a3u7WssKqBlneVrIq31KuowpyInn2AlHd2iWvd3t3T1NI5QzLo6Oe3vLbV1tNLWELX2NbLzMqxta6WopClv5jIysXi4uHJy8fm5ua5vLezt7FYZ1F6jnDKzMq2urRhcVlVY03Iyce3u7axtbBgcFhaaVLi4uGnraVbalONoYGxta99knRYZ1DHyca7u7uqw52WpI2pr6eytrCus62WopCy0KVWZFDMzcv6+vrAwMC6urrv7+7////4+Pjv7+/z8/P8/Pzx8fFGE7PYAAAAcnRSTlMAAAho0dva29va3M1JV/xFz/39/PzU2qptKylN/ODYugEi/N36Jq783/YIEdzy/v7ywgMk8/v83tgeGAEGHR08+94h/N7fIfr10ZQUzenh/t/iAiP63AIg993eAiD50gJX4QIh+M0IaNPe26EDHvL+zxgy3VarAAAAAWJLR0QB/wIt3gAAAAd0SU1FB+MJExURKoE30tEAAADdSURBVBjTY2BiZmFlY+cAATY2Ti5uHgYG3qJiFMDHzyCA4AkKCYuUFIsyiMEESsUlJKWkZYplGeRgQvIKjIyMikrFygycUBEVVaAIo5p6sQYDG1RIU4tRW6dYVw8upG9gaMRobGJqVlZsDhWysLSyZrSxtbN3AJoFEXJkhAAn52IXqJArVMjNHWgWxEYPTy9GRm8fXz//4gC4jYFBjMEhIEYoXIgjjDE8AsSIZIiCCUUzxoCFYhniYELxUKFyhoQKiFBiEmNyCoiRypCWnpEJDLus7BzG3Lzi4vyCQgBg71+zZY3K+QAAAABJRU5ErkJggg==" />
-           </svg></a>
-          <a href="https://www.instagram.com/daniil.biyakov/"><svg 
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            width="19px" height="18px">
-           <image  x="0px" y="0px" width="19px" height="18px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAASCAMAAACO0hVbAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACLlBMVEU2eBs3exz///9DbzFNpCo+Yy5HpSRDkiQ4fxw3XCc1Vyc2XSc4YCc3XSg1XiU1UyhHgC88VDKfo52gpJ6gpJ6mqaSboJmlqKPQ0c/X2dfLzMqPnIpBiyQ6VDDp6unu7+7p6ugnQhyZnpfY2dgxViE6fx07gx+kuZzf4N+Qlo2jqaAsYxiuxqXc3dvz8/PAwr8xbRoyeBgzeBi9yrjAwsDN0cvM0cq1uLSdrJiNpIOstajHycZ7iXVGYDo0WSStt6rEx8OVm5JvfGp/iXvV1dU/fiY5eyDf3965v7ext67Y2tfo6ejk7OEwXx6BjX2yuq+LpIFBYzHo6ujm7eIjUxKMloi5wLebrpM3VCre6dkybhvl5eXr8OpBdivj5OOLpoFWb0vT1NI6gh5EmCPg4t/l5uQqQCCEioLm6ObU19M+gSNkelq9wLw0bBzR4Mzb3NqxuK6DmXu1u7P8/PzY5NPK0ca+wb3m5+bE1b1Ekyc6fSCZpZTg497S3cz7/Pre49zk5ePf4d/H2L/R2M54k26RoomhrJyUpI2SpIvO1cvf5N3i4+HAy705Viw2VCk1UCk2Uyk5XCs3WCs3WSo3WCo4Wio2Uys1Uyk1VSg5WyqJmILGyMYpRR7y8vLo6ejt7ezq6+rp6eiHloBOZES2ubWssKrCxcKTn43////4+Pjn5+ft7e3y8vL8/Pzx8fH7+/v9/f3j4+Pl5uXj5OP6+vrh4uH5+fn19fXq6urw8PAl7UBZAAAAqHRSTlMAAAAAAAAAAAAAAAAAAAAAHqrs6+rs6O329/XNKLD+/v2v6v5pKSy5+eT2FHL3/vswCwud8tXV79a25PPRNCrd8ubG2vojG/rp4ff6k2vT4Y5A+ph12eSjO41V/KYi+4RK9jAR+vU2RPX6GFLyN7D51rDV/sGa8vl4BFXq+riBvPn4Y1FtrsCwg1Ot+cZCQkA6PENEQz47QUI/rPWr/v79/v7LrfHt887oSeJuAAAAAWJLR0QCZgt8ZAAAAAd0SU1FB+MJExURMHxVK6sAAAEuSURBVBjTTc71UwJhEIDh9exGscXuwg4s7O7u7u4O7O5ObPdU4BTzv5M7HOT9Yb+ZZ2d2PmAZGbPpTNimZuYWaGllzQEbEv+ztbPHJwdwVCInZxdXt2d38FAyTy9Q8UYfhb1wSfT18w8IFCksKBhDQsVhPF64JEJuZGQUQRDRfGYdA7FkXDwmJBJ0ScmYkipJg3QqIxOzCHnZmJP7ipCH+QVY+GdFWFzyhkBJS8vI8gqGKquwuua9FvCjrr4BG5tU1dSbW7C1rR07AKWdGl1c7O7p7etHHNAc/ByCYdGI1ujYOPOLickp7WkUwAzO6ujqzc0vLC4tr+gbGK6KBLAmXt/Y3Nre2d3bPzg8Oj45/TqD82+8uJQlvBLSz/UP3gDr9u6ekt2ikJ5IPTxyfgEBJpGj/BzAtgAAAABJRU5ErkJggg==" />
-           </svg></a>
-          <a href="https://www.pinterest.ru/biyakovden/"><svg 
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            width="13px" height="18px">
-           <image  x="0px" y="0px" width="13px" height="18px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAASCAQAAAAqYpy5AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfjCRMVETkFiZMPAAABH0lEQVQY012QPSsEAACGH+d8HE5XUj7yNdzkIwYxWAyyKMrk40cwGPwHKWUwWygTKcMllOUWLkmUUIZjwHHd+QiP4e4k7zu+y/s8RQJAH1MMUMsnF2ywTgYQK533Qz1307jv6rYtgrioxh0yJAbtNKbuWYW9vntkk/y23oQ6g8vqiDhtwrn8OKse4olJQzaaVI8tFnFMvQwQ4YFXOqgDUuQOB4HvAFnClHHBE3DANwANQCpAjGbGuSeN7OYgGQTOMOqtS7aY8c1WEdt9VicQe4w6rX45aomNbqn7VhdYVtQ3s556p17ZnbOB5cbVSRe89tpVo1KY2nzx3hoxbKRgJQhAF2HiPAJpfhMAoBTYyeP+myq4YY3/EbHf4T/m8/0BdhnkMxErEmgAAAAASUVORK5CYII=" />
-           </svg></a>
+          <a href="https://www.facebook.com/profile.php?id=100006167449154&ref=bookmarks"><svg
+              xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px">
+              <image x="0px" y="0px" width="18px" height="18px"
+                xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAMAAABhEH5lAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABa1BMVEW/2rP///+mvpmWpI+orqaus6yvs6ywtK+wtK6vs62wtK6lrKOYr46Kn4DT1NOctJGmrKTf397q6uro6Ojg4N+xtq6us6yWoZG/xbwlKx4sNCVebFTb29q6vrmtsqufp5vC4LU8RjPl5eS4vLbS09Kzzqj09fPl5eW4vLbP0M9fb1W61a7Z29jm5+Xr6+vm5+a+wLyfp5udtpGYso3U1tPj5OLn5+a3u7WssKqBlneVrIq31KuowpyInn2AlHd2iWvd3t3T1NI5QzLo6Oe3vLbV1tNLWELX2NbLzMqxta6WopClv5jIysXi4uHJy8fm5ua5vLezt7FYZ1F6jnDKzMq2urRhcVlVY03Iyce3u7axtbBgcFhaaVLi4uGnraVbalONoYGxta99knRYZ1DHyca7u7uqw52WpI2pr6eytrCus62WopCy0KVWZFDMzcv6+vrAwMC6urrv7+7////4+Pjv7+/z8/P8/Pzx8fFGE7PYAAAAcnRSTlMAAAho0dva29va3M1JV/xFz/39/PzU2qptKylN/ODYugEi/N36Jq783/YIEdzy/v7ywgMk8/v83tgeGAEGHR08+94h/N7fIfr10ZQUzenh/t/iAiP63AIg993eAiD50gJX4QIh+M0IaNPe26EDHvL+zxgy3VarAAAAAWJLR0QB/wIt3gAAAAd0SU1FB+MJExURKoE30tEAAADdSURBVBjTY2BiZmFlY+cAATY2Ti5uHgYG3qJiFMDHzyCA4AkKCYuUFIsyiMEESsUlJKWkZYplGeRgQvIKjIyMikrFygycUBEVVaAIo5p6sQYDG1RIU4tRW6dYVw8upG9gaMRobGJqVlZsDhWysLSyZrSxtbN3AJoFEXJkhAAn52IXqJArVMjNHWgWxEYPTy9GRm8fXz//4gC4jYFBjMEhIEYoXIgjjDE8AsSIZIiCCUUzxoCFYhniYELxUKFyhoQKiFBiEmNyCoiRypCWnpEJDLus7BzG3Lzi4vyCQgBg71+zZY3K+QAAAABJRU5ErkJggg==" />
+            </svg></a>
+          <a href="https://www.instagram.com/daniil.biyakov/"><svg xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink" width="19px" height="18px">
+              <image x="0px" y="0px" width="19px" height="18px"
+                xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAASCAMAAACO0hVbAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACLlBMVEU2eBs3exz///9DbzFNpCo+Yy5HpSRDkiQ4fxw3XCc1Vyc2XSc4YCc3XSg1XiU1UyhHgC88VDKfo52gpJ6gpJ6mqaSboJmlqKPQ0c/X2dfLzMqPnIpBiyQ6VDDp6unu7+7p6ugnQhyZnpfY2dgxViE6fx07gx+kuZzf4N+Qlo2jqaAsYxiuxqXc3dvz8/PAwr8xbRoyeBgzeBi9yrjAwsDN0cvM0cq1uLSdrJiNpIOstajHycZ7iXVGYDo0WSStt6rEx8OVm5JvfGp/iXvV1dU/fiY5eyDf3965v7ext67Y2tfo6ejk7OEwXx6BjX2yuq+LpIFBYzHo6ujm7eIjUxKMloi5wLebrpM3VCre6dkybhvl5eXr8OpBdivj5OOLpoFWb0vT1NI6gh5EmCPg4t/l5uQqQCCEioLm6ObU19M+gSNkelq9wLw0bBzR4Mzb3NqxuK6DmXu1u7P8/PzY5NPK0ca+wb3m5+bE1b1Ekyc6fSCZpZTg497S3cz7/Pre49zk5ePf4d/H2L/R2M54k26RoomhrJyUpI2SpIvO1cvf5N3i4+HAy705Viw2VCk1UCk2Uyk5XCs3WCs3WSo3WCo4Wio2Uys1Uyk1VSg5WyqJmILGyMYpRR7y8vLo6ejt7ezq6+rp6eiHloBOZES2ubWssKrCxcKTn43////4+Pjn5+ft7e3y8vL8/Pzx8fH7+/v9/f3j4+Pl5uXj5OP6+vrh4uH5+fn19fXq6urw8PAl7UBZAAAAqHRSTlMAAAAAAAAAAAAAAAAAAAAAHqrs6+rs6O329/XNKLD+/v2v6v5pKSy5+eT2FHL3/vswCwud8tXV79a25PPRNCrd8ubG2vojG/rp4ff6k2vT4Y5A+ph12eSjO41V/KYi+4RK9jAR+vU2RPX6GFLyN7D51rDV/sGa8vl4BFXq+riBvPn4Y1FtrsCwg1Ot+cZCQkA6PENEQz47QUI/rPWr/v79/v7LrfHt887oSeJuAAAAAWJLR0QCZgt8ZAAAAAd0SU1FB+MJExURMHxVK6sAAAEuSURBVBjTTc71UwJhEIDh9exGscXuwg4s7O7u7u4O7O5ObPdU4BTzv5M7HOT9Yb+ZZ2d2PmAZGbPpTNimZuYWaGllzQEbEv+ztbPHJwdwVCInZxdXt2d38FAyTy9Q8UYfhb1wSfT18w8IFCksKBhDQsVhPF64JEJuZGQUQRDRfGYdA7FkXDwmJBJ0ScmYkipJg3QqIxOzCHnZmJP7ipCH+QVY+GdFWFzyhkBJS8vI8gqGKquwuua9FvCjrr4BG5tU1dSbW7C1rR07AKWdGl1c7O7p7etHHNAc/ByCYdGI1ujYOPOLickp7WkUwAzO6ujqzc0vLC4tr+gbGK6KBLAmXt/Y3Nre2d3bPzg8Oj45/TqD82+8uJQlvBLSz/UP3gDr9u6ekt2ikJ5IPTxyfgEBJpGj/BzAtgAAAABJRU5ErkJggg==" />
+            </svg></a>
+          <a href="https://www.pinterest.ru/biyakovden/"><svg xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink" width="13px" height="18px">
+              <image x="0px" y="0px" width="13px" height="18px"
+                xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAASCAQAAAAqYpy5AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfjCRMVETkFiZMPAAABH0lEQVQY012QPSsEAACGH+d8HE5XUj7yNdzkIwYxWAyyKMrk40cwGPwHKWUwWygTKcMllOUWLkmUUIZjwHHd+QiP4e4k7zu+y/s8RQJAH1MMUMsnF2ywTgYQK533Qz1307jv6rYtgrioxh0yJAbtNKbuWYW9vntkk/y23oQ6g8vqiDhtwrn8OKse4olJQzaaVI8tFnFMvQwQ4YFXOqgDUuQOB4HvAFnClHHBE3DANwANQCpAjGbGuSeN7OYgGQTOMOqtS7aY8c1WEdt9VicQe4w6rX45aomNbqn7VhdYVtQ3s556p17ZnbOB5cbVSRe89tpVo1KY2nzx3hoxbKRgJQhAF2HiPAJpfhMAoBTYyeP+myq4YY3/EbHf4T/m8/0BdhnkMxErEmgAAAAASUVORK5CYII=" />
+            </svg></a>
         </div>
         <!-- /.footer-bottom__social -->
         <div class="footer-bottom__lang">
@@ -199,15 +246,34 @@
   </footer>
 
   <div class="popup">
-    <div class="popup__block">
+    <div class="popup-block">
       <h2 class="popup__header">AREA RISERVATA</h2>
       <!-- /.popup__header -->
       <button class="popup__close"><img src="assets/images/close.png" alt="close"></button>
       <!-- /.popup__close -->
-      <form action="#" class="popup-block__auth"></form>
-      <!-- /.popup-block__auth -->
-      <form action="#" class="form-block__reg"></form>
-      <!-- /.form-block__reg -->
+      <div class="popup-block__forms">
+        <form action="#" class="popup-block__form">
+          <h2 class="popup-block__form__header">ACCEDI</h2>
+          <input type="email" name="email" id="authEmail" placeholder="E-mail" class="popup-block__input">
+          <input type="password" name="password" id="authPassword" placeholder="Password" class="popup-block__input">
+          <input type="submit" value="ACCEDI" class="popup-block__submit">
+          <a href="#" class="popup-block__link">Password dimenticata</a>
+        </form>
+        <!-- /.popup-block__auth -->
+        <form action="#" class="popup-block__form">
+          <h2 class="popup-block__form__header">Registrati</h2>
+          <input type="text" name="name" id="regName" placeholder="Nome" class="popup-block__input">
+          <input type="text" name="secondname" id="secondname" placeholder="Cognome" class="popup-block__input">
+          <input type="email" name="email" id="regEmail" placeholder="E-mail" class="popup-block__input">
+          <input type="password" name="password" id="regPassword" placeholder="Password" class="popup-block__input">
+          <input type="checkbox" name="private" id="private" class="popup-block__checkbox"><label
+            for="private">Acconsento al trattamento dei dati</label>
+          <input type="checkbox" name="news" id="news" class="popup-block__checkbox"><label for="news">Mi iscrivo alla
+            Newsletter</label>
+          <input type="submit" value="ISCRIVITI" class="popup-block__submit">
+        </form>
+        <!-- /.form-block__reg -->
+      </div>
     </div>
     <!-- /.popup__block -->
   </div>

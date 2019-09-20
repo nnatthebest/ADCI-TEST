@@ -1,0 +1,71 @@
+#menuToggle
+  display: none
+  position: absolute
+  top: 35px
+  left: 10px
+  z-index: 1
+  -webkit-user-select: none
+  user-select: none
+  span
+    display: block
+    width: 33px
+    height: 4px
+    margin-bottom: 5px
+    position: relative
+    background: #cdcdcd
+    border-radius: 3px
+    z-index: 1
+    transform-origin: 4px 0px
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease
+    &:first-child
+      transform-origin: 0% 0%
+    &:nth-last-child(2)
+      transform-origin: 0% 100%
+.mobile-bg
+  background: rgba(0, 0, 0, 0.6)
+  z-index: 11
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  display: none
+.mobile-menu
+  height: 100%
+  background: #ffffff
+  width: 50%
+  position: fixed
+  top: 0
+  left: 0
+  color: #000000
+  box-sizing: border-box
+  padding: 50px 20px
+  &__close
+    position: absolute
+    top: 15px
+    right: -30px
+    width: 24px
+    height: 24px
+    border: 0
+    background: transparent
+    cursor: pointer
+  &__auth
+    margin-bottom: 20px
+    & .small-link
+      color: #000000
+      font-size: 18px
+    & img
+      margin-left: 5px
+  &__nav
+    & .nav-block
+      margin-bottom: 10px
+    & .nav-link
+      color: #000000
+      &.active
+        color: $nav-active
+    & .nav-block__child
+      position: static
+      padding: 10px
+      background: transparent
+      & .child-link
+        color: #000000
